@@ -1,3 +1,30 @@
-body {
-    background: blue;
+html {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.intro {
+    padding: 120px 100px;
+    height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+    color: #444452;
+    font-family: Apercu,"Source Sans Pro",system,system-ui,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    width: 100%
 }
