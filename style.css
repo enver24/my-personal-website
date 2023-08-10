@@ -7,6 +7,13 @@ html {
     overflow: hidden;
 }
 
+.box {
+    border: 10px dotted black;
+    padding: 5px;
+    background: lightblue;
+    background-clip: border-box;
+}
+
 .topnav a {
     float: left;
     color: white;
