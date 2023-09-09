@@ -47,7 +47,14 @@ body,html {
 
 .section_title {
     color: dodgerblue;
+    font-weight: 100;
 }
+
 .section_content {
     font-weight: 100;
+}
+
+.skills_category_label {
+    font-weight: bold;
+    display: inline-block;
 }
