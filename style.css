@@ -2,6 +2,10 @@ html {
     font-family: sans-serif;
 }
 
+body {
+    background: radial-gradient(#7F7FD5, #91EAE4);
+}
+
 .topnav {
     background-color: dodgerblue;
     overflow: hidden;
@@ -55,6 +59,49 @@ body,html {
 }
 
 .skills_category_label {
-    font-weight: bold;
+    font-weight: 700;
     display: inline-block;
+}
+
+.job {
+    font-weight: bold;
+    font-size: large;
+    margin: 1%;
+}
+
+.job_time {
+    font-size: smaller;
+}
+
+.job_position {
+    font-size: small;
+}
+
+.footer {
+    padding: 50px 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.footer__copyright {
+    width:auto;
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.footer_links {
+    position: relative;
+    display: inline-block;
+    color: black!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 15px;
+    outline: 0
 }
